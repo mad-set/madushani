@@ -9,34 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".business_info"></activity>
-        <activity android:name=".ProfileNavi" />
-        <activity android:name=".Main3Activity" />
-        <activity android:name=".Main2Activity" />
-        <activity
-            android:name=".navigation"
-            android:label="@string/title_activity_navigation" />
-        <activity android:name=".BusinessInfomation" />
-        <activity
-            android:name=".navi"
-            android:label="@string/title_activity_navi"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".supregister"
-            android:label="@string/title_activity_supregister"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".suplogin"
-            android:label="@string/title_activity_suplogin"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".profile"
-            android:label="@string/title_activity_profile"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".selectLogin" />
-        <activity android:name=".register" />
-        <activity android:name=".login" />
-        <activity android:name=".home" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
