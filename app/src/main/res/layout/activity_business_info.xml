@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".business_info"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Business Infomation"
+            android:textColor="@color/colourMain"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawablePadding="10dp"
+                android:hint="Legal Name / Bussiness owner Name*"
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawablePadding="10dp"
+                android:hint="Person in charge(Optional)"
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawablePadding="10dp"
+                android:hint="Business Registration Number*"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawablePadding="10dp"
+                android:hint="National Identity Number*"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawablePadding="10dp"
+                android:hint="ID type"
+                android:inputType="textPassword"
+                android:padding="10dp" />
+
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawablePadding="10dp"
+                android:hint="Select location "
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/buttonstyle2"
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:text="Edit info"
+                android:textColor="@color/black"></Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

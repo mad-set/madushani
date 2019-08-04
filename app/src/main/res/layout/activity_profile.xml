@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="left"
+        android:padding="15dp"
+        android:text="Profile"
+        android:textColor="@color/colourMain"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="left"
+
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/ic_account_circle_black_24dp" />
+
+                <Button
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="152dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/buttonstyle2"
+                    android:text="Edit"
+                    android:textColor="@color/black"
+                    android:onClick="displayToastPhoto"/>
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="madushani dissanayake"
+                android:padding="10dp" />
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="madushanidissanayake1998@gmail.com"
+
+                android:padding="10dp" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="#2A161616"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="no:256/3A,Edaduwawa,Peradeniya"
+                android:padding="10dp"
+                android:singleLine="false" />
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/buttonstyle2"
+                android:backgroundTint="@color/Button"
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:text="update info"
+                android:textColor="@color/black" />
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/buttonstyle2"
+                android:backgroundTint="@color/Button"
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:text="remove account"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
